@@ -6,7 +6,7 @@ import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding>
-    <title>Andres Mayorca | Portfolio</title>
+    <title>Andres Mayorca</title>
     <LeftSection>
       <SectionTitle main center>
         Welcome To <br />
