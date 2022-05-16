@@ -5,9 +5,10 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <Section id="tech">
+    <SectionTitle>Technologies</SectionTitle>
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <ListTitle>Web Development</ListTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world.
       From Back-end To Desing
@@ -40,6 +41,21 @@ const Technologies = () =>  (
           <ListParagraph>
             Experiencie with <br />
             tools like figma
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+    <ListTitle>Blockchain Development</ListTitle>
+    <SectionText>
+    I have experience collaborating on blockchain-based projects using the following technologies
+    </SectionText>
+    <List>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Technologies</ListTitle>
+          <ListParagraph>
+            Experiencie with <br />
+            Solidity, TypeScript, Javascript, node.js, Hardhat, Truffle, Alchemy y more.
           </ListParagraph>
         </ListContainer>
       </ListItem>

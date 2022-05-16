@@ -9,13 +9,13 @@ const Hero = () => (
     <title>Andres Mayorca</title>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Personal Portfolio
+        Hello, Gm  <br />
+        I'm Andrés Mayorca | Ethcode
       </SectionTitle>
       <SectionText>
-        Hello! My name is Andres, i'm 14 years-old. I'm a passionate about the new technologies y more 
+      Hi, I'm Andres and i'm Blockchain Developer & Full Stack web Developer.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn more</Button>
+      <Button onClick={() => window.location = 'https://twitter.com/ethcode'}>Learn more</Button>
     </LeftSection>
   </Section>
 );
