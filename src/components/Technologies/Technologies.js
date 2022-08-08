@@ -1,65 +1,58 @@
 import React from 'react';
-import { DiDatabase, DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { FaEthereum } from "react-icons/fa";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
+    <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionDivider />
-    <br />
-    <ListTitle>Web Development</ListTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world.
-      From Back-end To Desing
+      From Back-end To Design
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
+      <picture>
+          <FaEthereum size="3rem"></FaEthereum>
+        </picture>
+        <ListContainer>
+          <ListTitle>Blockchain</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Solidity JavaScript, Typescript, Hardhat, <br />
+            Openzeppelin, Gitcoin grants y Superfluid Libraries
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiReact size="3rem" />
+        </picture>
         <ListContainer>
           <ListTitle>Frontend</ListTitle>
           <ListParagraph>
-            Experiencie with <br />
-            React.js, Next.js, Tailwind y more.
+            Experiece with <br />
+            React.js, next.js and tailwind
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiDatabase size="3rem" />
+        <picture>
+          <DiFirebase size="3rem" />
+        </picture>
         <ListContainer>
           <ListTitle>Backend</ListTitle>
           <ListParagraph>
-            Experiencie with <br />
-            Python, Django, Node,js and Databases
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiZend size="3rem" />
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experiencie with <br />
-            tools like figma
+            Experience with <br />
+            Node.js, Databases, Python <br />
+            Django and Flask
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
-    <ListTitle>Blockchain Development</ListTitle>
-    <SectionText>
-    I have experience collaborating on blockchain-based projects using the following technologies
-    </SectionText>
-    <List>
-      <ListItem>
-        <ListContainer>
-          <ListTitle>Technologies</ListTitle>
-          <ListParagraph>
-            Experiencie with <br />
-            Solidity, TypeScript, Javascript, node.js, Hardhat, Truffle, Alchemy y more.
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-    </List>
+    <SectionDivider colorAlt />
   </Section>
 );
 
