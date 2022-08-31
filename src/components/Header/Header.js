@@ -34,10 +34,10 @@ const Header = () =>  (
       </li>        
     </Div2>
       <Div3>
-        <SocialIcons href="https://github.com/ethcode1/" target="_blank">
+        <SocialIcons href="https://github.com/andresmayorca/" target="_blank">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://twitter.com/ethcode" target="_blank">
+        <SocialIcons href="https://twitter.com/andresmayorca_" target="_blank">
           <AiFillTwitterSquare size="3rem" />
         </SocialIcons>
         <SocialIcons href="https://www.youtube.com/channel/UCMsffGZQyaHJSrOs6xp_-Zg" target="_blank">
